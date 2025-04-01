@@ -1,0 +1,6 @@
+###
+GET http://localhost:5275/api/Produto/
+
+###
+
+GET http://localhost:5275/api/Produto/hello
