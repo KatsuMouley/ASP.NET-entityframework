@@ -16,6 +16,9 @@ builder.Services.AddDbContext<AppDataContext>
     (options => options.UseMySql(connectionString,
      ServerVersion.AutoDetect(connectionString)));
 
+//Cadastro de serviços da aplicação
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

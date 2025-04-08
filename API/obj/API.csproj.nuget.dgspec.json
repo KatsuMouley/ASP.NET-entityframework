@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\VITORLUIZSANTOSMOUGE\\Desktop\\Ecommerce\\API\\API.csproj": {}
+    "C:\\Users\\VITORLUIZSANTOSMOUGE\\Desktop\\ASP.NET-entityframework\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\VITORLUIZSANTOSMOUGE\\Desktop\\Ecommerce\\API\\API.csproj": {
+    "C:\\Users\\VITORLUIZSANTOSMOUGE\\Desktop\\ASP.NET-entityframework\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VITORLUIZSANTOSMOUGE\\Desktop\\Ecommerce\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\VITORLUIZSANTOSMOUGE\\Desktop\\ASP.NET-entityframework\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\VITORLUIZSANTOSMOUGE\\Desktop\\Ecommerce\\API\\API.csproj",
+        "projectPath": "C:\\Users\\VITORLUIZSANTOSMOUGE\\Desktop\\ASP.NET-entityframework\\API\\API.csproj",
         "packagesPath": "C:\\Users\\VITORLUIZSANTOSMOUGE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VITORLUIZSANTOSMOUGE\\Desktop\\Ecommerce\\API\\obj\\",
+        "outputPath": "C:\\Users\\VITORLUIZSANTOSMOUGE\\Desktop\\ASP.NET-entityframework\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\VITORLUIZSANTOSMOUGE\\AppData\\Roaming\\NuGet\\NuGet.Config"

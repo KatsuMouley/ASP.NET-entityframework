@@ -1,0 +1,15 @@
+@url_base = http://localhost:5275/api/Produto
+
+###
+POST {{url_base}}/new_user
+Content-Type: application/json
+
+{
+  "idade": 102,
+  "nome": "BILLY"
+}
+
+###
+GET {{url_base}}/list_users
+
+

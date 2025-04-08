@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AEUQGsJ4IhA=",
+  "dgSpecHash": "E2FlBR+tp7U=",
   "success": true,
-  "projectFilePath": "C:\\Users\\VITORLUIZSANTOSMOUGE\\Desktop\\Ecommerce\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\VITORLUIZSANTOSMOUGE\\Desktop\\ASP.NET-entityframework\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\VITORLUIZSANTOSMOUGE\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\VITORLUIZSANTOSMOUGE\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
