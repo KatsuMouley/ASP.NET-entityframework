@@ -1,0 +1,39 @@
+@revisao_HostAddress = http://localhost:5189
+
+### Listar todos os produtos
+GET {{revisao_HostAddress}}/api/product/list
+Content-Type: application/json
+
+###
+
+### Listar produto por ID
+GET {{revisao_HostAddress}}/api/product/list/1
+Content-Type: application/json
+
+###
+
+### Criar novo produto
+POST {{revisao_HostAddress}}/api/product/create
+Content-Type: application/json
+
+{
+  "name": "Produto Teste"
+}
+
+###
+
+### Atualizar produto existente
+PUT {{revisao_HostAddress}}/api/product/update/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Produto Atualizado",
+  "createdOn": "2024-01-01T00:00:00"
+}
+
+###
+
+### Deletar produto
+DELETE {{revisao_HostAddress}}/api/product/delete/8
+Content-Type: application/json

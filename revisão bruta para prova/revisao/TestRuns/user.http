@@ -1,0 +1,48 @@
+@revisao_HostAddress = http://localhost:5189
+
+### Criar novo usuário (signup)
+POST {{revisao_HostAddress}}/api/User/signup
+Content-Type: application/json
+
+{
+  "email": "usuario@teste.com",
+  "password": "123456",
+  "role": 0
+}
+
+###
+
+### Login de usuário
+GET {{revisao_HostAddress}}/api/User/login?email=usuario@teste.com&password=123456
+Content-Type: application/json
+
+###
+
+### Listar todos os usuários
+GET {{revisao_HostAddress}}/api/User/list
+Content-Type: application/json
+
+###
+
+### Listar usuário por ID
+GET {{revisao_HostAddress}}/api/User/list/1
+Content-Type: application/json
+
+###
+
+### Atualizar usuário
+PUT {{revisao_HostAddress}}/api/User/update/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "email": "usuario@atualizado.com",
+  "password": "novaSenha",
+  "role": 0
+}
+
+###
+
+### Deletar usuário
+DELETE {{revisao_HostAddress}}/api/User/delete/1
+Content-Type: application/json

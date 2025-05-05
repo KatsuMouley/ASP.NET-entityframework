@@ -1,5 +1,6 @@
-namespace API.Models;
-public enum Permissao
+namespace revisao.Models;
+
+public enum Role
 {
     user,
     admin
