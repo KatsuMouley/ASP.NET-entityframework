@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using revisao.Models;
 using revisao.Repositories;
+using Microsoft.AspNetCore.Authorization;
 
 namespace revisao.Controllers;
 
@@ -32,7 +33,8 @@ public class ProductController : ControllerBase
         }
         return Ok(produto);
     }
-
+    
+    [Authorize(Roles = "admin")]
     [HttpPost("create")]
     public IActionResult Create([FromBody] Product product)
     {
@@ -40,7 +42,8 @@ public class ProductController : ControllerBase
         _repository.Save();
         return CreatedAtAction(nameof(ListById), new { id = product.Id }, product);
     }
-
+    
+    [Authorize]
     [HttpPut("update/{id}")]
     public IActionResult Update(int id, [FromBody] Product product)
     {
@@ -58,6 +61,7 @@ public class ProductController : ControllerBase
         return Ok(existente);
     }
 
+    [Authorize(Roles = "admin")]
     [HttpDelete("delete/{id}")]
     public IActionResult Delete(int id)
     {

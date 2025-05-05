@@ -5,16 +5,22 @@ POST {{revisao_HostAddress}}/api/User/signup
 Content-Type: application/json
 
 {
-  "email": "usuario@teste.com",
-  "password": "123456",
-  "role": 0
+  "email": "Notadmin@example.com",
+  "password": "StrongPassword123",
+  "Role": 1
 }
+
 
 ###
 
 ### Login de usuário
-GET {{revisao_HostAddress}}/api/User/login?email=usuario@teste.com&password=123456
+POST {{revisao_HostAddress}}/api/User/login
 Content-Type: application/json
+
+{
+  "email": "newuser@example.com",
+  "password": "StrongPassword123"
+}
 
 ###
 

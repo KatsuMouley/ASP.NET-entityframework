@@ -12,7 +12,7 @@ using revisao.Data;
 namespace revisao.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250505063658_Inicial")]
+    [Migration("20250505081240_Inicial")]
     partial class Inicial
     {
         /// <inheritdoc />
